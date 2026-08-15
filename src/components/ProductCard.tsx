@@ -1,13 +1,14 @@
+import type { Product } from '../types/Product';
+
 type ProductCardProps = {
-  name: string;
-  price: number;
+    product:Product
 };
 
-function ProductCard({ name, price }: ProductCardProps) {
+function ProductCard({ product }: ProductCardProps) {
   return (
     <>
-      <h2>{name}</h2>
-      <p>${price}</p>
+      <h2>{product.name}</h2>
+      <p>${product.price}</p>
     </>
   );
 }
