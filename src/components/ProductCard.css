@@ -1,0 +1,14 @@
+.product-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.product-card h2 {
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 18px;
+}
